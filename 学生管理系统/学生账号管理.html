@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+
+    table{
+    border-collapse: collapse;  /* 边框模式，合并的模式 */
+    }
+    .clearfix:after{
+    content: '';
+    display: block;
+    clear: both;
+    }
+    input,button{
+    margin: 0;
+    padding: 0;
+    }
+    th,td{
+        padding: 0;
+    }
+    .fl{
+    float: left;
+    }
+    .fr{
+        float: right;
+    }
+    p{
+        margin: 0;
+    }
+
+
+    .all{
+        width: 1280px;
+        height: 800px;
+        margin: 0 auto;
+        border: 1px solid black;
+        position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        
+        
+    }
+    .all .title{
+        height: 74px;
+        border-bottom: 1px solid black;
+        
+        
+        position: relative;
+        
+        
+    }
+    .all .title strong{
+        
+        position: absolute;
+        left: 18px;
+        top: 17px;
+        
+        margin: 0;
+        font-size: 28px;        
+    }
+    
+    .title p{
+        line-height: 74px;
+        margin: 0 50px 0 0;
+
+    } 
+    .leftTitle .leftTitleTitle{
+        margin: 20px 0 0 0;
+    }
+    ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        height: 727px;
+    }
+    li{
+        border: 1px solid black;
+        width: 202px;
+        height: 61px;
+        line-height: 61px;
+        text-align: center;
+        border-width: 0px 1px 1px 0;
+    }
+    .last{
+        height: 230px;
+        border-bottom: 0;
+    }
+    
+    .content{
+        position: relative;
+        
+    }
+    .content .btn{   
+        position: absolute;            
+        left: 30px;
+        top: 30px;
+        width: 600px;
+        height: 40px;
+    }
+    .content .btn button{
+        width: 140px;
+        height: 40px;   
+        margin: 0 25px 0 0;
+        background-color: #169BD5;
+        border: 0;
+        border-radius: 5px;
+        color: white;
+    }
+    table{
+        border-collapse:collapse;/* 取消表格边框 */      
+    }
+    table,th,tr,td{ 
+        border-bottom:1px solid black;/* 表格横线 */    
+    }
+    .content table{   
+        position: absolute;            
+        left: 30px;
+        top: 90px;
+        
+        border-width: 0px;
+        width: 1015px;
+        
+        box-sizing: border-box;
+        border: 1px solid black;    
+    }
+    table tr{
+        height: 43px;
+    }
+    table td{
+        width: 120px;
+        text-align: center ;
+    }
+    .stable{
+        position: absolute;
+        width: 144px;
+        height: 129px;
+        left: 960px;
+        top: 160px;
+        border: 1px solid black;
+        background-color: #ffffff;
+        text-align: center;
+    }
+    .stable p{
+        margin:9px 0 8px 0;
+        
+    }
+    .page{
+        position: absolute;
+        left: 30px;
+        top: 350px;
+        width: 500px;
+        
+    }
+    .page button{
+        width: 31px;
+        height: 30px;
+        border-radius: 5px;
+        background-color: white;
+        border: 1px solid black;
+        margin: 0 3px 0 0;
+    }
+    
+
+        
+    </style>
+</head>
+<body>
+    <div class="all fl">
+        <div class="title clearfix">           
+            <strong>线上学院后台系统</strong>
+
+            <div class="leftTitle fr">
+                
+                <div class="fr leftTitleTitle">
+                <span>张三</span><br>
+                <span>131110192</span>
+                <span></span>
+                </div>
+
+                <p class="fr">前往官网</p>
+            </div>
+            
+        </div>
+
+        <div class="list fl"> 
+            <ul>
+                <li>概览</li>
+                <li>学生账号管理</li>
+                <li>后台账号管理</li>
+                <li>失物招领</li>
+                <li>新闻管理</li>
+                <li>在线问答</li>
+                <li>资料共享</li>
+                <li>值班管理</li>
+                <li class="last"></li>
+
+            </ul>
+        </div>
+        <div class="content fl">
+            <div class="btn">
+                <button>添加账号</button>
+                <button>导入账号</button>
+                <button>班级管理</button>
+            </div>
+
+            
+            <table>
+                
+                    <tr>
+                        <td>学号</td>
+                        <td>姓名</td>
+                        <td>性别</td>
+                        <td>联系方式</td>
+                        <td>年级班级</td>
+                        <td>宿舍</td>
+                        <td>操作</td>
+                    </tr>
+                    <tr>
+                        <td>1511928321</td>
+                        <td>李四</td>
+                        <td>男</td>
+                        <td>191192747182</td>
+                        <td>1503</td>
+                        <td>南7-201</td>
+                        <td>****</td>
+                    </tr>
+                    <tr>
+                        <td>1511928321</td>
+                        <td>李四</td>
+                        <td>男</td>
+                        <td>191192747182</td>
+                        <td>1503</td>
+                        <td>南7-201</td>
+                        <td>****</td>
+                    </tr><tr>
+                        <td>1511928321</td>
+                        <td>李四</td>
+                        <td>男</td>
+                        <td>191192747182</td>
+                        <td>1503</td>
+                        <td>南7-201</td>
+                        <td>****</td>
+                    </tr><tr>
+                        <td>1511928321</td>
+                        <td>李四</td>
+                        <td>男</td>
+                        <td>191192747182</td>
+                        <td>1503</td>
+                        <td>南7-201</td>
+                        <td>****</td>
+                    </tr>
+                    
+
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                                 
+                
+            </table>
+            
+            <div class="stable">
+                <p>重置密码</p>
+                <p>锁定账号</p>
+                <p>修改信息</p>
+                <p>删除账号</p>
+            </div>
+
+            <div class="page">
+                <button>></button>
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button><</button>
+            </div>
+        
+        
+        </div>
+        
+
+
+    </div>
+            
+        
+    
+</body>
+</html>
