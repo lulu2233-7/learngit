@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="news.css">
+    <script type="text/javascript" src="news.js"></script>
+</head>
+<body>
+    <div class="all fl">
+        <div class="title clearfix">           
+            <strong>线上学院后台系统</strong>
+
+            <div class="leftTitle fr">
+                
+                <div class="fr leftTitleTitle">
+                <span>张三</span><br>
+                <span>131110192</span>
+                <span></span>
+                </div>
+
+                <p class="fr">前往官网</p>
+            </div>
+            
+        </div>
+
+        <div class="list fl"> 
+            <ul>
+                <li>概览</li>
+                <li>学生账号管理</li>
+                <li>后台账号管理</li>
+                <li>失物招领</li>
+                <li>新闻管理</li>
+                <li>在线问答</li>
+                <li>资料共享</li>
+                <li>值班管理</li>
+                <li class="last"></li>
+
+            </ul>
+        </div>
+
+        <div class="content"> 
+            <div class="btn">
+                <button>创建新闻</button>
+                <button>删除</button>
+                <button>置顶</button>
+            </div>
+                        
+            <form action="http://baidu.com/s" method="get">
+                     <input class="searchch" name="wd" id="search" value="搜索框">
+            </form>
+
+            <div id="mydiv" class="news clearfix" >
+                    <?php foreach($data as $v){?>
+                        
+                        <div class="border">
+                            <input class="boxInput" type="checkbox" name="vehicle"/>
+                            <strong><?php echo $v ['event'];?></strong>
+                            <span>&nbsp;&nbsp;<?php echo $v ['third'];?></span>
+                            <span><?php echo $v ['fourth'];?></span>
+                            <span><?php echo $v ['third+'];?></span>
+                            
+                            
+                            <span class="fr bbyy"><a href="newsdel.php?id=<?php echo $v['id'];?>">删除</a></span>
+                            <span class="fr bbyy"><a href="newsedit.php?id=<?php echo $v['id'];?>">编辑</a></span>
+                            <button class="fr zz" onclick="onClickB1()" >发布</button>
+                            
+                            
+                        </div>
+                    <?php }?>
+               <!--  <form action="#" method="get">
+                    <div class="left fl">
+                        <input class="boxInput" type="checkbox" name="vehicle"/>
+                        <strong class="newsTitle">这是新闻标题</strong>
+                        <p class="samlltext ">(置顶)&nbsp;&nbsp;&nbsp;2019-01-12&nbsp;&nbsp;&nbsp;撰稿人：XXXX</p>
+                    </div>
+
+                    <div class="right fr">
+                        <button>发布</button>
+                        <span>编辑</span>
+                        <a href="javascript:;"><span onclick="deldiv()">删除</span></a>
+                    </div>
+                    
+
+                    
+                    
+                </form> -->
+            </div>
+
+            <!-- <div>
+                
+                <div id="">这是内部div</div>
+                <ul id="check-ul" ></ul>
+            </div>
+            <button onclick="deldiv()">删除内部div</button> -->
+
+        </div>
+
+        <!-- <script>
+            window.alert(5 + 6);
+        </script> -->
+       <!--  <script type="text/javascript">
+            function onClickB1() {
+                document.querySelector(".zz").innerHTML = "已发布";
+            }
+        </script> -->
+</body>
+
+</html>

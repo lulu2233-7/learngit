@@ -1,0 +1,181 @@
+    table{
+    border-collapse: collapse;  /* 边框模式，合并的模式 */
+    }
+    .clearfix:after{
+    content: '';
+    display: block;
+    clear: both;
+    }
+    input,button{
+    margin: 0;
+    padding: 0;
+    }
+    th,td{
+        padding: 0;
+    }
+    .fl{
+    float: left;
+    }
+    .fr{
+        float: right;
+    }
+    p{
+        margin: 0;
+    }
+
+
+    .all{
+        width: 1280px;
+        height: 800px;
+        margin: 0 auto;
+        border: 1px solid black;
+        position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        
+        
+    }
+    .all .title{
+        height: 74px;
+        border-bottom: 1px solid black;
+        
+        
+        position: relative;
+        
+        
+    }
+    .all .title strong{
+        
+        position: absolute;
+        left: 18px;
+        top: 17px;
+        
+        margin: 0;
+        font-size: 28px;        
+    }
+    
+    .title p{
+        line-height: 74px;
+        margin: 0 50px 0 0;
+
+    } 
+    .leftTitle .leftTitleTitle{
+        margin: 20px 0 0 0;
+    }
+    ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        height: 727px;
+    }
+    li{
+        border: 1px solid black;
+        width: 202px;
+        height: 61px;
+        line-height: 61px;
+        text-align: center;
+        border-width: 0px 1px 1px 0;
+    }
+    .last{
+        height: 230px;
+        border-bottom: 0;
+    }
+    .content{
+        position: relative;
+    }
+    .content .btn{
+        position: absolute;
+        left: 235px;
+        top: 30px;
+    }
+    .content .searchch{
+        position: absolute;
+        right: 100px;
+        top: 50px;       
+    }
+    .content .btn button{
+        width: 140px;
+        height: 40px;   
+        margin: 0 25px 0 0;
+        background-color: #169BD5;
+        border: 0;
+        border-radius: 5px;
+        color: white;
+    }
+    .content .searchch{
+        border: 1px solid black;
+        width: 300px;
+        height: 40px;
+        padding: 3px 2px 3px 2px;
+        font-weight: 32px;
+        font-style: normal;
+        font-size: 13px;
+        box-sizing: border-box;
+    }
+    .news{
+        position: absolute;
+        left: 235px;
+        top: 110px;
+        width: 1025px;
+        height: 60px;
+        line-height: 60px;
+        box-sizing: border-box;
+        background-color: white;
+        border-top: 1px solid black;
+        
+    }
+    
+    .news .boxInput{
+        display: none;
+    }
+    .news .boxInput{
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+        color: #ffffff; 
+
+        margin: 20px;
+    }
+    
+    .news .newsTitle{
+        display: inline-block;
+        font-size: 25px;
+    }
+    .news .samlltext{
+        display: inline-block;
+        
+    }
+    .border{/* 
+        border: 1px solid black; */
+        border-left: 1px solid black;
+        border-bottom: 1px solid black;
+        border-right: 1px solid black;
+       
+    }
+    strong{
+        font-size: 25px;
+    }
+    .border button{
+        width: 100px;
+        height: 30px;   
+        margin: 0 25px 0 0;
+        background-color: #169BD5;
+        border: 0;
+        border-radius: 5px;
+        color: white;
+        /* display: table-cell;text-decoration:none
+        vertical-align: middle; */
+        position: relative;
+        top: 50%;
+        transform: translateY(+55%);
+    }
+    .border .bbyy{
+        margin: 0 10px 0 0; 
+    }
+    .border .bbyy a {
+        text-decoration:none;
+        color: black;
+    }
+    
+    
+    
